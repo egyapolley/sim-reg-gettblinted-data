@@ -29,7 +29,7 @@ connection.query(sql, (err, result) => {
             csv.writeToPath(outputFile, final_data, {headers: false})
 
         }
-        
+
     }
 
     connection.end(err => {
